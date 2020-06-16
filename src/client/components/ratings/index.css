@@ -1,0 +1,7 @@
+.ratings {
+  font-size: 16px;
+}
+
+.ratings div {
+  display: inline-block;
+}

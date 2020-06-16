@@ -1,0 +1,42 @@
+.car {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+/* Show only one car per row  */
+.car {
+  width: calc(33.33% - 24px);
+  margin: 12px;
+}
+
+.car.unavailable {
+  background: #ddd;
+  color: #888;
+}
+
+.car-img {
+  height: 10rem;
+  width: 100%;
+}
+
+.car-container {
+  padding: 0 1rem;
+}
+
+.car h4 {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .car {
+    width: calc(50% - 24px);
+  }
+}
+
+@media (max-width: 420px) {
+  .car {
+    width: calc(100% - 24px);
+  }
+}
